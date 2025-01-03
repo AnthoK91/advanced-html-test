@@ -1,0 +1,114 @@
+/* General */
+body {
+  margin: 10;
+  padding: 0;
+  font-family: "Clash Display", sans-serif;
+}
+
+/* My Work Section */
+.my-work {
+  position: relative;
+  z-index: 9;
+}
+
+img {
+  margin-inline-start: 10px;
+}
+
+.profile-pic-box {
+  position: relative;
+}
+
+#name-title {
+  position: absolute;
+  margin: 0;
+  top: 0px;
+  padding: 0;
+  font-size: 1.5rem;
+  color: darkblue;
+}
+
+.about-me-box {
+  padding: 48px;
+  display: flex;
+}
+
+.background-color {
+  position: relative;
+  padding: 48px;
+  display: flex;
+  z-index: 1;
+}
+
+.background-color::before {
+  content: "";
+  position: absolute;
+  top: -500px;
+  left: -500px;
+  right: 0;
+  bottom: 0;
+  background-color: bisque;
+  transform: rotate(160deg);
+  z-index: -1;
+}
+
+.profile-pic {
+  max-width: 200px;
+  margin: 20px;
+}
+
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-class {
+  margin: 0;
+  padding: 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.my-work {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 9px;
+  margin-bottom: 20px;
+}
+
+.grid-of-work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6 {
+  min-width: 30%;
+  margin: 5px;
+  border-radius: 9px;
+  padding-left: 10px;
+}
+
+.contact-me-box {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 9px;
+  margin-bottom: 20px;
+}
+
+.background-color-footer {
+  position: relative;
+  padding: 48px;
+  display: flex;
+  z-index: 1;
+}
